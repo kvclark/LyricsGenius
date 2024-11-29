@@ -206,5 +206,5 @@ class SearchMethods(object):
             alongside other types.
 
         """
-        endpoint = 'multi'
+        endpoint = ''
         return self.search(search_term, per_page, page, endpoint)

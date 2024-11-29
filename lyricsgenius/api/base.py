@@ -10,7 +10,7 @@ class Sender(object):
     """Sends requests to Genius."""
     # Create a persistent requests connection
     API_ROOT = 'https://api.genius.com/'
-    PUBLIC_API_ROOT = 'https://genius.com/api/'
+    PUBLIC_API_ROOT = API_ROOT
     WEB_ROOT = 'https://genius.com/'
 
     def __init__(
